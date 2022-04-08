@@ -8,7 +8,7 @@ function getConnection()
   $host = 'localhost';
   $dbname = 'php_crud';
   $user = 'root';
-  $password = '';
+  $password = ''; 
 
   $dns = "mysql:host=$host;dbname=$dbname;charset=utf8";
 

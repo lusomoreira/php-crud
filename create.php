@@ -20,12 +20,19 @@
 
   <main id="main">
     <div class="container">
-      <div class="items">
-        <a href="create.php">Create</a>
-        <a href="#">Read</a>
-        <a href="#">Update</a>
-        <a href="#">Delete</a>
-      </div>
+     <form action="DB/createNewUser.php" method="post">
+
+      <label>Nome: </label>
+      <input type="text" name="name" id="name" placeholder="Digite seu nome completo">
+
+      <label>Data de Nascimento: </label>
+      <input type="date" name="dtn" id="dtn">
+
+      <label>Email</label>
+      <input type="email" name="email" id="email">
+
+      <input type="submit" value="Enviar" name="Enviar">
+     </form>
     </div>
   </main>
 
